@@ -26,6 +26,8 @@
 		B0637BFF2CB92EFA003BBD6D /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BFE2CB92EFA003BBD6D /* CoverImageView.swift */; };
 		B0637C022CB93049003BBD6D /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C012CB93049003BBD6D /* CoverImageModel.swift */; };
 		B0637C052CB930B2003BBD6D /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C042CB930B2003BBD6D /* CodableBundleExtension.swift */; };
+		B0637C072CB93390003BBD6D /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C062CB93390003BBD6D /* AnimalListItemView.swift */; };
+		B0637C092CB934D7003BBD6D /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C082CB934D7003BBD6D /* AnimalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		B0637BFE2CB92EFA003BBD6D /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		B0637C012CB93049003BBD6D /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		B0637C042CB930B2003BBD6D /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		B0637C062CB93390003BBD6D /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		B0637C082CB934D7003BBD6D /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -143,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B0637BFE2CB92EFA003BBD6D /* CoverImageView.swift */,
+				B0637C062CB93390003BBD6D /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				B0637C012CB93049003BBD6D /* CoverImageModel.swift */,
+				B0637C082CB934D7003BBD6D /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0637C072CB93390003BBD6D /* AnimalListItemView.swift in Sources */,
 				B0637BFF2CB92EFA003BBD6D /* CoverImageView.swift in Sources */,
 				B0637C022CB93049003BBD6D /* CoverImageModel.swift in Sources */,
+				B0637C092CB934D7003BBD6D /* AnimalModel.swift in Sources */,
 				B0637C052CB930B2003BBD6D /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
